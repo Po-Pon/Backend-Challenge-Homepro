@@ -9,8 +9,8 @@ cd <PROJECT_FOLDER_NAME>
 
 #### 2. Configure Your Database Connection
   The project requires a connection to a SQL Server database. You need to create a local configuration file to store your connection string.
-In the main project directory, create a new file named appsettings.Development.json.
-Copy the structure from appsettings.json and add your actual database connection string. The content of your appsettings.Development.json should look like this:
+In the main project directory, create a new file named ```appsettings.Development.json.```
+Copy the structure from ```appsettings.json``` and add your actual database connection string. The content of your ```appsettings.Development.json``` should look like this:
 ```
 {
   "ConnectionStrings": {
